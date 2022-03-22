@@ -1,0 +1,17 @@
+#spring:
+#  thymeleaf:
+#    prefix: classpath:/templates/ #模板路径
+#    suffix: .html #模板后缀
+#    servlet:
+#      content-type: text/html
+#    encoding: utf-8
+#    mode: HTML5
+#    cache: false
+server:
+  port: 8080
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: rnadatabase
