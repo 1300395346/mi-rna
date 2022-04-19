@@ -5,6 +5,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Component;
 
+/**
+ * @Classname CollectionRepositoryImpl
+ * @Description mongodb集合操作实现类
+ * @Date 2022/4/10 16:31
+ * @Created by Sakura
+ */
+
+
 @Component
 public class CollectionRepositoryImpl implements CollectionRepository{
 
